@@ -1,0 +1,28 @@
+    ALGORITHM ch1
+        VAR
+voyelle : integer;
+word : integer;
+caract : integer;
+ch:String;
+
+        Begin
+
+Read (ch);
+
+While (ch[i] <> ".") Do
+If (ch[i] := "a" or ch[i] := "u" or ch[i] := "o" or ch[i] := "e" or ch[i] := "y" or ch[i] := "i" )
+voyelle := voyelle + 1;
+End If
+
+Else If (ch[i] = " ")
+word := word + 1;
+End If
+
+If (ch[i] <> ".")
+caract := caract + 1
+End If
+
+    whrite (voyelle);
+    whrite (word);
+    whrite (caract);
+        End
